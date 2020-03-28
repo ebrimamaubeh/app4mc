@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.equinox.core.sdk"
+      label="%featureName"
+      version="3.14.0.v20180512-1130"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.osgi"
+         download-size="1395"
+         install-size="2986"
+         version="3.13.0.v20180409-1500"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.compatibility.state"
+         download-size="238"
+         install-size="582"
+         version="1.1.100.v20180331-1743"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.compatibility.state.source"
+         download-size="141"
+         install-size="554"
+         version="1.1.100.v20180331-1743"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.services"
+         download-size="122"
+         install-size="194"
+         version="3.7.0.v20180223-1712"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.services.source"
+         download-size="237"
+         install-size="603"
+         version="3.7.0.v20180223-1712"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.source"
+         download-size="1107"
+         install-size="3692"
+         version="3.13.0.v20180409-1500"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.common"
+         download-size="119"
+         install-size="224"
+         version="3.10.0.v20180412-1130"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.common.source"
+         download-size="129"
+         install-size="387"
+         version="3.10.0.v20180412-1130"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.launcher"
+         download-size="53"
+         install-size="95"
+         version="1.5.0.v20180512-1130"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.launcher.source"
+         download-size="44"
+         install-size="138"
+         version="1.5.0.v20180512-1130"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.registry"
+         download-size="191"
+         install-size="400"
+         version="3.8.0.v20180426-1327"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.registry.source"
+         download-size="175"
+         install-size="533"
+         version="3.8.0.v20180426-1327"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.supplement"
+         download-size="106"
+         install-size="193"
+         version="1.8.0.v20180110-1522"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.supplement.source"
+         download-size="110"
+         install-size="300"
+         version="1.8.0.v20180110-1522"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.transforms.xslt"
+         download-size="18"
+         install-size="29"
+         version="1.0.400.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.transforms.xslt.source"
+         download-size="13"
+         install-size="23"
+         version="1.0.400.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.transforms.hook"
+         download-size="29"
+         install-size="54"
+         version="1.2.100.v20171221-2204"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.transforms.hook.source"
+         download-size="23"
+         install-size="49"
+         version="1.2.100.v20171221-2204"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.util"
+         download-size="71"
+         install-size="147"
+         version="3.5.0.v20180219-1511"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.util.source"
+         download-size="63"
+         install-size="189"
+         version="3.5.0.v20180219-1511"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.concurrent"
+         download-size="25"
+         install-size="45"
+         version="1.1.100.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.concurrent.source"
+         download-size="25"
+         install-size="50"
+         version="1.1.100.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.simpleconfigurator"
+         download-size="44"
+         install-size="83"
+         version="1.3.0.v20180502-1828"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.simpleconfigurator.source"
+         download-size="36"
+         install-size="86"
+         version="1.3.0.v20180502-1828"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security"
+         download-size="107"
+         install-size="219"
+         version="1.2.400.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.win32.x86"
+         os="win32"
+         arch="x86"
+         download-size="23"
+         install-size="47"
+         version="1.1.0.v20171221-2204"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.win32.x86.source"
+         os="win32"
+         arch="x86"
+         download-size="16"
+         install-size="28"
+         version="1.1.0.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.win32.x86_64"
+         os="win32"
+         arch="x86_64"
+         download-size="35"
+         install-size="65"
+         version="1.1.0.v20171221-2204"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.win32.x86_64.source"
+         os="win32"
+         arch="x86_64"
+         download-size="16"
+         install-size="34"
+         version="1.1.0.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.linux.x86_64"
+         os="linux"
+         arch="x86_64"
+         download-size="16"
+         install-size="30"
+         version="1.1.0.v20171221-2204"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.linux.x86_64.source"
+         os="linux"
+         arch="x86_64"
+         download-size="14"
+         install-size="22"
+         version="1.1.0.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.macosx"
+         os="macosx"
+         download-size="16"
+         install-size="58"
+         version="1.101.0.v20171221-2204"
+         fragment="true"
+         unpack="false"/>
+
+    <plugin
+         id="org.eclipse.equinox.security.macosx.source"
+         os="macosx"
+         download-size="29"
+         install-size="97"
+         version="1.101.0.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.source"
+         download-size="100"
+         install-size="253"
+         version="1.2.400.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.ui"
+         download-size="168"
+         install-size="318"
+         version="1.2.0.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.security.ui.source"
+         download-size="85"
+         install-size="219"
+         version="1.2.0.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.region"
+         download-size="75"
+         install-size="157"
+         version="1.4.100.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.region.source"
+         download-size="57"
+         install-size="152"
+         version="1.4.100.v20171221-2204"
+         unpack="false"/>
+   <plugin
+         id="org.eclipse.equinox.log.stream"
+         download-size="102"
+         install-size="255"
+         version="1.0.0.v20180219-1443"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.log.stream.source"
+         download-size="61"
+         install-size="180"
+         version="1.0.0.v20180219-1443"
+         unpack="false"/>
+
+
+   <plugin
+         id="org.eclipse.equinox.console"
+         download-size="122"
+         install-size="248"
+         version="1.3.0.v20180119-0630"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.console.source"
+         download-size="84"
+         install-size="251"
+         version="1.3.0.v20180119-0630"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.console.ssh"
+         download-size="53"
+         install-size="101"
+         version="1.1.0.v20180119-0630"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.console.ssh.source"
+         download-size="35"
+         install-size="95"
+         version="1.1.0.v20180119-0630"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.console.jaas.fragment"
+         download-size="7"
+         install-size="10"
+         version="1.0.100.v20171221-2204"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.command"
+         download-size="56"
+         install-size="115"
+         version="1.0.2.v20170914-1324"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.command.source"
+         download-size="40"
+         install-size="137"
+         version="1.0.2.v20170914-1324"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.runtime"
+         download-size="209"
+         install-size="405"
+         version="1.0.6.v20170914-1324"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.runtime.source"
+         download-size="102"
+         install-size="369"
+         version="1.0.6.v20170914-1324"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.shell"
+         download-size="68"
+         install-size="134"
+         version="1.0.0.v20170914-1324"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.gogo.shell.source"
+         download-size="47"
+         install-size="132"
+         version="1.0.0.v20170914-1324"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.mina.core"
+         download-size="661"
+         install-size="1446"
+         version="2.0.7.v201401071602"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.mina.core.source"
+         download-size="585"
+         install-size="1887"
+         version="2.0.7.v201401071602"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.sshd.core"
+         download-size="370"
+         install-size="709"
+         version="0.7.0.v201303101611"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.sshd.core.source"
+         download-size="297"
+         install-size="800"
+         version="0.7.0.v201303101611"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.bidi"
+         download-size="48"
+         install-size="90"
+         version="1.1.100.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.bidi.source"
+         download-size="63"
+         install-size="175"
+         version="1.1.100.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.api"
+         download-size="33"
+         install-size="60"
+         version="1.7.2.v20121108-1250"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.api.source"
+         download-size="55"
+         install-size="136"
+         version="1.7.2.v20121108-1250"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.weaving.caching"
+         download-size="24"
+         install-size="41"
+         version="1.1.100.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.weaving.caching.source"
+         download-size="19"
+         install-size="44"
+         version="1.1.100.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.weaving.caching.j9"
+         download-size="14"
+         install-size="22"
+         version="1.1.100.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.weaving.caching.j9.source"
+         download-size="12"
+         install-size="22"
+         version="1.1.100.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.weaving.hook"
+         download-size="50"
+         install-size="98"
+         version="1.2.100.v20171221-2204"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.weaving.hook.source"
+         download-size="41"
+         install-size="117"
+         version="1.2.100.v20171221-2204"
+         unpack="false"/>
+
+</feature>

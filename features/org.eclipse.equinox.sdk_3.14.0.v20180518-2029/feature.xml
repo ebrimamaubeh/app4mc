@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.equinox.sdk"
+      label="%featureName"
+      version="3.14.0.v20180518-2029"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <includes
+         id="org.eclipse.equinox.compendium.sdk"
+         version="3.14.0.v20180510-1129"/>
+
+   <includes
+         id="org.eclipse.equinox.core.sdk"
+         version="3.14.0.v20180512-1130"/>
+
+   <includes
+         id="org.eclipse.equinox.serverside.sdk"
+         version="3.14.0.v20180515-2149"/>
+
+   <includes
+         id="org.eclipse.equinox.executable"
+         version="3.8.0.v20180518-2029"/>
+
+   <includes
+         id="org.eclipse.equinox.core.feature"
+         version="1.5.0.v20180502-1828"/>
+
+</feature>

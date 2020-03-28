@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.sphinx.xtendxpand"
+      label="%featureName"
+      version="0.11.2.201802230805"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.sphinx.emf.mwe"
+         download-size="19"
+         install-size="32"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.xtend.typesystem.emf"
+         download-size="14"
+         install-size="20"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.xtend.typesystem.emf.ui"
+         download-size="13"
+         install-size="17"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.xtendxpand"
+         download-size="64"
+         install-size="135"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.xtendxpand.ui"
+         download-size="113"
+         install-size="230"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+</feature>

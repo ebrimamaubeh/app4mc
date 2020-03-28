@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.app4mc.amalthea.converters.sdk"
+      label="APP4MC AMALTHEA Converters SDK"
+      version="0.9.7.202001311406"
+      provider-name="Eclipse APP4MC">
+
+   <description url="https://projects.eclipse.org/projects/technology.app4mc">
+      APP4MC AMALTHEA Model converters
+   </description>
+
+   <copyright url="https://projects.eclipse.org/projects/technology.app4mc">
+      (c) Copyright Eclipse APP4MC contributors and others. 2018.
+All rights reserved.
+   </copyright>
+
+   <includes
+         id="org.eclipse.app4mc.amalthea.converters"
+         version="0.9.7.202001311406"
+         name="APP4MC AMALTHEA Converters"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.common.source"
+         download-size="67"
+         install-size="183"
+         version="0.9.7.202001301520"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.headless.app.source"
+         download-size="15"
+         install-size="26"
+         version="0.9.7.202001311053"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.ui.source"
+         download-size="32"
+         install-size="76"
+         version="0.9.7.202001290742"
+         unpack="false"/>
+
+   <plugin
+         id="org.jdom2.source"
+         download-size="882"
+         install-size="3089"
+         version="2.0.6.v20191125-0928"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.071.source"
+         download-size="25"
+         install-size="67"
+         version="0.9.7.202001281330"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.072.source"
+         download-size="29"
+         install-size="84"
+         version="0.9.7.202001281330"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.080.source"
+         download-size="18"
+         install-size="37"
+         version="0.9.7.202001281330"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.081.source"
+         download-size="29"
+         install-size="80"
+         version="0.9.7.202001290742"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.082.source"
+         download-size="9"
+         install-size="14"
+         version="0.9.7.202001281330"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.083.source"
+         download-size="20"
+         install-size="60"
+         version="0.9.7.202001281330"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.090.source"
+         download-size="27"
+         install-size="95"
+         version="0.9.7.202001311337"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.091.source"
+         download-size="10"
+         install-size="17"
+         version="0.9.7.202001281330"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.092.source"
+         download-size="9"
+         install-size="14"
+         version="0.9.7.202001281330"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.093.source"
+         download-size="26"
+         install-size="82"
+         version="0.9.7.202001291521"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.094.source"
+         download-size="12"
+         install-size="25"
+         version="0.9.7.202001281330"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.095.source"
+         download-size="12"
+         install-size="25"
+         version="0.9.7.202001290742"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.096.source"
+         download-size="11"
+         install-size="20"
+         version="0.9.7.202001281330"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.097.source"
+         download-size="14"
+         install-size="30"
+         version="0.9.7.202001311406"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.converters.log4j.configuration.source"
+         download-size="11"
+         install-size="16"
+         version="0.9.7.201912170648"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.jaxen.source"
+         download-size="437"
+         install-size="1161"
+         version="1.1.6.v20191106-1554"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

@@ -1,0 +1,13 @@
+eclipse.preferences.version=1
+repositories/http\:__download.eclipse.org_app4mc_components_addon_migration_snapshot_p2repo/count=1
+repositories/http\:__download.eclipse.org_app4mc_components_addon_migration_snapshot_p2repo/enabled=true
+repositories/http\:__download.eclipse.org_app4mc_components_addon_migration_snapshot_p2repo/uri=http\://download.eclipse.org/app4mc/components/addon/migration/snapshot/p2repo
+repositories/http\:__download.eclipse.org_eclipse_updates_4.8/count=1
+repositories/http\:__download.eclipse.org_eclipse_updates_4.8/enabled=true
+repositories/http\:__download.eclipse.org_eclipse_updates_4.8/uri=http\://download.eclipse.org/eclipse/updates/4.8
+repositories/http\:__download.eclipse.org_releases_photon/count=1
+repositories/http\:__download.eclipse.org_releases_photon/enabled=true
+repositories/http\:__download.eclipse.org_releases_photon/uri=http\://download.eclipse.org/releases/photon
+repositories/http\:__download.eclipse.org_tools_orbit_downloads_drops_R20180606145124_repository/count=1
+repositories/http\:__download.eclipse.org_tools_orbit_downloads_drops_R20180606145124_repository/enabled=true
+repositories/http\:__download.eclipse.org_tools_orbit_downloads_drops_R20180606145124_repository/uri=http\://download.eclipse.org/tools/orbit/downloads/drops/R20180606145124/repository

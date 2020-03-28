@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.sphinx.core"
+      label="%featureName"
+      version="0.11.2.201802230805"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.sphinx.platform"
+         download-size="143"
+         install-size="297"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.platform.ui"
+         download-size="518"
+         install-size="1525"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.emf.workspace"
+         download-size="172"
+         install-size="409"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.emf.workspace.ui"
+         download-size="185"
+         install-size="398"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.emf"
+         download-size="485"
+         install-size="1117"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.emf.ui"
+         download-size="113"
+         install-size="228"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.platform.launching"
+         download-size="22"
+         install-size="62"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+</feature>

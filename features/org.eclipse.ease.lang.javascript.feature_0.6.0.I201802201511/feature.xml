@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ease.lang.javascript.feature"
+      label="EASE Javascript Support (Incubation)"
+      version="0.6.0.I201802201511"
+      provider-name="Eclipse.org"
+      plugin="org.eclipse.ease">
+
+   <description url="https://www.eclipse.org/ease/">
+      EASE JavaScript support. Allows to develop, debug and run javascript files.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      Copyright (c) 2013 Christian Pontesegger and Arthur Daussy
+All rights reserved. This program and the accompanying materials
+are made available under the terms of the Eclipse Public License v1.0
+which accompanies this distribution, and is available at
+http://www.eclipse.org/legal/epl-v10.html
+
+Contributors:
+    Christian Pontesegger - initial API and implementation
+    Arthur Daussy - initial API and implementation
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ease.lang.javascript"
+         download-size="18"
+         install-size="28"
+         version="0.6.0.I201802190840"/>
+
+   <plugin
+         id="org.eclipse.ease.lang.javascript.ui"
+         download-size="16"
+         install-size="24"
+         version="0.6.0.I201709292034"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ease.lang.javascript.rhino"
+         download-size="23"
+         install-size="41"
+         version="0.6.0.I201802161426"/>
+
+   <plugin
+         id="org.eclipse.ease.lang.javascript.rhino.debugger"
+         download-size="33"
+         install-size="60"
+         version="0.6.0.I201802201511"/>
+
+   <plugin
+         id="org.eclipse.ease.lang.javascript.nashorn"
+         download-size="14"
+         install-size="22"
+         version="0.6.0.I201801161024"/>
+
+</feature>

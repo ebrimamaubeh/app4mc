@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.ease.lang.jvm.feature"
+      label="EASE JVM Engine (Incubation)"
+      version="0.6.0.I201711281359"
+      provider-name="Eclipse.org"
+      plugin="org.eclipse.ease">
+
+   <description url="https://www.eclipse.org/ease/">
+      Java engine implementation for EASE. Allows to execute java files as scripts.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.ease.lang.jvm.compiled"
+         download-size="15"
+         install-size="25"
+         version="0.6.0.I201711281359"
+         unpack="false"/>
+
+</feature>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.sphinx.emf.mwe.dynamic"
+      label="%featureName"
+      version="0.11.2.201802230805"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.sphinx.emf.mwe.dynamic"
+         download-size="53"
+         install-size="103"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.emf.mwe.dynamic.headless"
+         download-size="17"
+         install-size="25"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.emf.mwe.dynamic.ui"
+         download-size="32"
+         install-size="56"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.emf.mwe.dynamic.launching"
+         download-size="17"
+         install-size="25"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.emf.mwe.dynamic.launching.ui"
+         download-size="25"
+         install-size="41"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+</feature>

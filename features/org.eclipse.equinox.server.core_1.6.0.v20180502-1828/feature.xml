@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.equinox.server.core"
+      label="%featureName"
+      version="1.6.0.v20180502-1828"
+      provider-name="%providerName">
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.osgi"
+         download-size="1395"
+         install-size="2986"
+         version="3.13.0.v20180409-1500"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.services"
+         download-size="122"
+         install-size="194"
+         version="3.7.0.v20180223-1712"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.util"
+         download-size="71"
+         install-size="147"
+         version="3.5.0.v20180219-1511"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.common"
+         download-size="119"
+         install-size="224"
+         version="3.10.0.v20180412-1130"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.ds"
+         download-size="28"
+         install-size="57"
+         version="1.5.100.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.util"
+         download-size="81"
+         install-size="151"
+         version="1.1.0.v20180419-0833"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.jobs"
+         download-size="105"
+         install-size="209"
+         version="3.10.0.v20180427-1454"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.registry"
+         download-size="191"
+         install-size="400"
+         version="3.8.0.v20180426-1327"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.registry"
+         download-size="45"
+         install-size="86"
+         version="1.1.500.v20171221-2204"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.simpleconfigurator"
+         download-size="44"
+         install-size="83"
+         version="1.3.0.v20180502-1828"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.compatibility.state"
+         download-size="238"
+         install-size="582"
+         version="1.1.100.v20180331-1743"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.felix.scr"
+         download-size="362"
+         install-size="839"
+         version="2.0.14.v20180117-1452"
+         unpack="false"/>
+
+</feature>

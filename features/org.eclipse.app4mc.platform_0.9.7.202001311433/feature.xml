@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.app4mc.platform"
+      label="APP4MC Tool Platform"
+      version="0.9.7.202001311433"
+      provider-name="Eclipse APP4MC"
+      plugin="org.eclipse.app4mc.platform.ide">
+
+   <description url="https://projects.eclipse.org/projects/technology.app4mc">
+      APP4MC Tool Platform
+   </description>
+
+   <copyright url="https://projects.eclipse.org/projects/technology.app4mc">
+      (c) Copyright Eclipse APP4MC contributors and others. 2018. 
+All rights reserved.
+   </copyright>
+
+   <includes
+         id="org.eclipse.app4mc.amalthea.models"
+         version="0.9.7.202001311433"/>
+
+   <includes
+         id="org.eclipse.app4mc.amalthea.editors"
+         version="0.9.7.202001311433"/>
+
+   <includes
+         id="org.eclipse.app4mc.tracing"
+         version="0.9.7.201911111005"/>
+
+   <includes
+         id="org.eclipse.app4mc.amalthea.export"
+         version="0.9.7.202001311433"/>
+
+   <includes
+         id="org.eclipse.app4mc.examples"
+         version="0.9.7.201911111005"/>
+
+   <includes
+         id="org.eclipse.app4mc.amalthea.import"
+         version="0.9.7.202001311433"/>
+
+   <includes
+         id="org.eclipse.app4mc.validation"
+         version="0.9.7.202001311433"/>
+
+   <includes
+         id="org.eclipse.app4mc.amalthea.edit"
+         version="0.9.7.202001311433"/>
+
+   <includes
+         id="org.eclipse.app4mc.docu"
+         version="0.9.7.202001291420"/>
+
+   <includes
+         id="org.eclipse.app4mc.amalthea.workflow.mwe"
+         version="0.9.7.202001311433"/>
+
+   <includes
+         id="org.eclipse.app4mc.amalthea.workflow.scripting"
+         version="0.9.7.202001311433"/>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.equinox.app"/>
+      <import plugin="org.eclipse.platform"/>
+      <import plugin="org.eclipse.sphinx.emf.explorer"/>
+      <import plugin="org.eclipse.ui.navigator"/>
+      <import plugin="org.eclipse.ui.navigator.resources"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.ide.application"/>
+      <import plugin="org.eclipse.ui.intro"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.app4mc.platform.ide"
+         download-size="116"
+         install-size="487"
+         version="0.9.7.202001140706"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

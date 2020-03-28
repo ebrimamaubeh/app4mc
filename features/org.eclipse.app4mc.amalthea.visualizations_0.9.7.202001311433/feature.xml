@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.app4mc.amalthea.visualizations"
+      label="APP4MC AMALTHEA Visualizations"
+      version="0.9.7.202001311433"
+      provider-name="Eclipse APP4MC">
+
+   <description url="https://projects.eclipse.org/projects/technology.app4mc">
+      APP4MC Amalthea Visualizations
+   </description>
+
+   <copyright url="https://projects.eclipse.org/projects/technology.app4mc">
+      (c) Copyright Eclipse APP4MC contributors and others. 2018. 
+All rights reserved.
+   </copyright>
+
+   <includes
+         id="org.eclipse.app4mc.amalthea.models"
+         version="0.9.7.202001311433"/>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="com.google.guava" version="12.0.0" match="greaterOrEqual"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.databinding"/>
+      <import plugin="org.eclipse.core.databinding.beans"/>
+      <import plugin="org.eclipse.core.databinding.property"/>
+      <import plugin="org.eclipse.jface.databinding"/>
+      <import plugin="com.ibm.icu"/>
+      <import plugin="org.eclipse.help"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.visualization.hw"
+         download-size="26"
+         install-size="49"
+         version="0.9.7.202001291647"/>
+
+   <plugin
+         id="net.sourceforge.plantuml"
+         download-size="12422"
+         install-size="13528"
+         version="2018.8.0.201901301457"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.equinox.server.jetty"
+      label="%featureName"
+      version="1.5.0.v20180508-1121"
+      provider-name="%providerName">
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="javax.servlet"
+         download-size="102"
+         install-size="202"
+         version="3.1.0.v201410161800"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.jetty"
+         download-size="28"
+         install-size="52"
+         version="3.6.0.v20180328-1442"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.http.servlet"
+         download-size="200"
+         install-size="454"
+         version="1.5.0.v20180501-1936"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.continuation"
+         download-size="22"
+         install-size="38"
+         version="9.4.10.v20180503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.http"
+         download-size="200"
+         install-size="389"
+         version="9.4.10.v20180503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.io"
+         download-size="143"
+         install-size="284"
+         version="9.4.10.v20180503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.security"
+         download-size="100"
+         install-size="202"
+         version="9.4.10.v20180503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.server"
+         download-size="600"
+         install-size="1275"
+         version="9.4.10.v20180503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.servlet"
+         download-size="117"
+         install-size="248"
+         version="9.4.10.v20180503"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jetty.util"
+         download-size="510"
+         install-size="999"
+         version="9.4.10.v20180503"
+         unpack="false"/>
+
+</feature>

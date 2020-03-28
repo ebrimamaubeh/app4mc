@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.app4mc.amalthea.workflow.scripting.sdk"
+      label="APP4MC AMALTHEA Workflow Scripting SDK"
+      version="0.9.7.202001311433"
+      provider-name="Eclipse APP4MC">
+
+   <description url="https://projects.eclipse.org/projects/technology.app4mc">
+      APP4MC AMALTHEA Workflow Scripting
+   </description>
+
+   <copyright url="https://projects.eclipse.org/projects/technology.app4mc">
+      (c) Copyright Eclipse APP4MC contributors and others. 2018. 
+All rights reserved.
+   </copyright>
+
+   <includes
+         id="org.eclipse.app4mc.amalthea.workflow.scripting"
+         version="0.9.7.202001311433"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.workflow.ease.source"
+         download-size="9"
+         install-size="13"
+         version="0.9.7.201911111005"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.workflow.core.source"
+         download-size="20"
+         install-size="43"
+         version="0.9.7.201912232101"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.workflow.examples.installer.source"
+         download-size="34"
+         install-size="103"
+         version="0.9.7.201911111005"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

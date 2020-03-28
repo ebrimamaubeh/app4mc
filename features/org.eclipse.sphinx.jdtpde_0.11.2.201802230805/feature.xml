@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.sphinx.jdtpde"
+      label="%featureName"
+      version="0.11.2.201802230805"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.sphinx.pde"
+         download-size="21"
+         install-size="38"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.jdt"
+         download-size="61"
+         install-size="158"
+         version="0.11.2.201802230805"/>
+
+</feature>

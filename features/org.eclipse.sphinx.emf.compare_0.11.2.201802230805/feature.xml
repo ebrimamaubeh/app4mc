@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.sphinx.emf.compare"
+      label="%featureName"
+      version="0.11.2.201802230805"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright url="http://www.eclipse.org/legal/epl-v10.html">
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <plugin
+         id="org.eclipse.sphinx.emf.compare"
+         download-size="49"
+         install-size="137"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.sphinx.emf.compare.ui"
+         download-size="44"
+         install-size="89"
+         version="0.11.2.201802230805"
+         unpack="false"/>
+
+</feature>

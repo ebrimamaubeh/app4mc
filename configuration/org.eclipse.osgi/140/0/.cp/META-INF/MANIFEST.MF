@@ -1,0 +1,105 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.app4mc.platform.ide
+Bundle-SymbolicName: org.eclipse.app4mc.platform.ide;singleton:=true
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.equinox.app,org.e
+ clipse.platform,org.eclipse.sphinx.emf.explorer,org.eclipse.ui.naviga
+ tor,org.eclipse.ui.navigator.resources,org.eclipse.ui,org.eclipse.ui.
+ ide.application,org.eclipse.ui.intro
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Eclipse APP4MC
+Bundle-Name: APP4MC Tool Platform IDE
+Bundle-Version: 0.9.7.202001140706
+Bundle-Localization: plugin
+Bundle-Activator: org.eclipse.app4mc.platform.ide.IDEPlugin
+Build-Jdk-Spec: 1.8
+Created-By: Maven Archiver 3.5.0
+
+Name: about.properties
+SHA-256-Digest: OBNdzNoRsbmraPRKxqR5jz1h5EPlD7PP6tT5xz/TKyE=
+
+Name: META-INF/maven/org.eclipse.app4mc.build/org.eclipse.app4mc.platf
+ orm.ide/pom.xml
+SHA-256-Digest: 8sBvVQ/x16tyHpewUr20vToyo9Jq+PMIYajDoAaZ+QY=
+
+Name: plugin.xml
+SHA-256-Digest: PWsp4dTKOhKXSHNQu0oRM4wLICRyQgV3Y7O08aJXdYM=
+
+Name: icons/app4mc-logo-48.png
+SHA-256-Digest: ahatHg5LhJeqdUjqgJH4CqAIZZRRbCn/5OHK+ofIGPY=
+
+Name: content/titlebanner.gif
+SHA-256-Digest: ermTkrJTe4OqQh1ULwQ39inyu4d6ky02JClm7n+BxDI=
+
+Name: icons/app4mc-logo-256.png
+SHA-256-Digest: RL3ibMRVIe/vtgp9rDCdwWNP3ZM14Dfdb+71mznjC2U=
+
+Name: splash.bmp
+SHA-256-Digest: rHVlt/UWC3eyIdfnPJjCAAOrbpwd/chDhFjURY+dGFc=
+
+Name: content/concept1.xhtml
+SHA-256-Digest: jOC9QXnxypbvt/19tXdWvTGVYfLe4poZfq7SiK1EJSw=
+
+Name: icons/app4mc-logo-128.png
+SHA-256-Digest: aZvntnPEtMsYjXF/VNSMaiJxnmfYQOFpaBE7MOEdF3Q=
+
+Name: icons/app4mc-logo-64.png
+SHA-256-Digest: nz/xXvMIDWOpc/L6XV9h0U5iqvlYYZRFSGuQf7Evdyg=
+
+Name: content/concept2.xhtml
+SHA-256-Digest: xg+WlnuFONFQJMTbv+9L/hcrFLKWODos7VvOq3fdY2s=
+
+Name: about.ini
+SHA-256-Digest: OJkE2ez9DLZz5poLFpI/KRlzkaCFW4HLjGlTZIT8nzc=
+
+Name: content/shared.css
+SHA-256-Digest: toPaA1kRyOndgoeKOsDoMDjo2pgXI/GP7QDZ99zoAm8=
+
+Name: plugin.properties
+SHA-256-Digest: 1izkrgsvhKJ+7u1h5Yv9FWT/aR/coJvJeR5fbryNWjU=
+
+Name: about.png
+SHA-256-Digest: X/NXdkUPq8rrWR1/dlR3oQ/psLX1CmQZr6bK56Kkbdw=
+
+Name: plugin_customization.ini
+SHA-256-Digest: ji2dTJlYKCpLvTugbQRAnhLFZhXOAdRQ468C4ETmjJY=
+
+Name: org/eclipse/app4mc/platform/ide/IDEPlugin.class
+SHA-256-Digest: J+U6FmimxSkaAQzCyQP2tUg5r/MAvjW8aWV68SYdfr4=
+
+Name: about.html
+SHA-256-Digest: 7mbS+ztMDS7S5/aYvJ7U49bPd/pcr0CtAylhJdsaxfA=
+
+Name: org/eclipse/app4mc/platform/ide/perspective/PerspectiveFactory.c
+ lass
+SHA-256-Digest: HUo6RCWmuxNKzK0sXm29QmMsHyEqsjod337eaRNX+Xk=
+
+Name: icons/app4mc-logo-16.png
+SHA-256-Digest: XulMUO0JlnSENt7vlLgDRXrdg3wzvJ+NTYk0rfW7cQ4=
+
+Name: content/root.css
+SHA-256-Digest: aG4u0hC/0k1F9iFeQlX15V6d8i/KNtKCUJHMqkRHhqE=
+
+Name: icons/app4mc-logo-32.png
+SHA-256-Digest: WA5wU7QvJ8NEvuU5Kyg6AE85jXH8jkM3blkKuMUemeI=
+
+Name: content/link_obj.gif
+SHA-256-Digest: htJgnSmwlKysl3HK2gNFp3z82yxjCBn4dOqAAN1vsuM=
+
+Name: epl-2.0.html
+SHA-256-Digest: koxKavfpz4JYnlYPmP+7at5zhbWf7Iy07zamu5HPcBg=
+
+Name: META-INF/maven/org.eclipse.app4mc.build/org.eclipse.app4mc.platf
+ orm.ide/pom.properties
+SHA-256-Digest: ErfOgI3LveIn5/2LhuUYok9ac3pswEL6Ql5Hpz4vxqg=
+
+Name: introContent.xml
+SHA-256-Digest: SdTgHXBm9oDU9Q7oEq8hYFKy5ueY7ZwtkwiWbxlwZmg=
+
+Name: content/root.xhtml
+SHA-256-Digest: iq2b5xwOeNJ26Fgoqjj4q+tQcP44y7igMSWEPkA5flQ=
+
+Name: icons/app4mc-logo-24.png
+SHA-256-Digest: bdQ/vaYKPY9LABklXRravrT0Vl4Oy4WCg23Z6k3fDmc=
+

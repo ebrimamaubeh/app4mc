@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.app4mc.validation"
+      label="APP4MC Validation"
+      version="0.9.7.202001311433"
+      provider-name="Eclipse APP4MC">
+
+   <description url="https://projects.eclipse.org/projects/technology.app4mc">
+      APP4MC Validation
+   </description>
+
+   <copyright url="https://projects.eclipse.org/projects/technology.app4mc">
+      (c) Copyright Eclipse APP4MC contributors and others. 2018. 
+All rights reserved.
+   </copyright>
+
+   <includes
+         id="org.eclipse.app4mc.amalthea.models"
+         version="0.9.7.202001311433"/>
+
+   <requires>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.app4mc.amalthea.model"/>
+      <import plugin="org.eclipse.help"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.app4mc.validation.help"
+         download-size="112"
+         install-size="137"
+         version="0.9.7.201911111005"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.validations"
+         download-size="65"
+         install-size="133"
+         version="0.9.7.202001081758"/>
+
+   <plugin
+         id="org.eclipse.app4mc.validation.core"
+         download-size="41"
+         install-size="87"
+         version="0.9.7.201911111005"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.validation.ui"
+         download-size="27"
+         install-size="51"
+         version="0.9.7.201911111005"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.app4mc.amalthea.validations.ta"
+         download-size="53"
+         install-size="108"
+         version="0.9.7.201911111005"
+         unpack="false"/>
+
+<license url="%licenseURL">
+      %license
+   </license></feature>

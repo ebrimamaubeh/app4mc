@@ -1,0 +1,338 @@
+!SESSION 2020-03-28 22:11:26.430 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.6
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.fx.core 4 0 2020-03-28 22:11:30.283
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.core [375]
+  Unresolved requirement: Import-Package: javax.xml.bind
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.core.guice 4 0 2020-03-28 22:11:30.286
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.core.guice [376]
+  Unresolved requirement: Import-Package: org.eclipse.fx.core.log; version="3.3.0"
+    -> Export-Package: org.eclipse.fx.core.log; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+       org.eclipse.fx.core [375]
+         Unresolved requirement: Import-Package: javax.xml.bind
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.ide.css.cssext 4 0 2020-03-28 22:11:30.290
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.ide.css.cssext [380]
+  Unresolved requirement: Require-Bundle: org.objectweb.asm; bundle-version="[5.0.1,6.0.0)"; resolution:="optional"
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.core.guice; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.core.guice; bundle-version="3.3.0.201805280600"
+       org.eclipse.fx.core.guice [376]
+         Unresolved requirement: Import-Package: org.eclipse.fx.core.log; version="3.3.0"
+           -> Export-Package: org.eclipse.fx.core.log; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+              org.eclipse.fx.core [375]
+                Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.ide.css.cssext.proposals 4 0 2020-03-28 22:11:30.294
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.ide.css.cssext.proposals [381]
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.ide.css.cssext; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.ide.css.cssext; bundle-version="3.3.0.201805280700"; singleton:="true"
+       org.eclipse.fx.ide.css.cssext [380]
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+              org.eclipse.fx.core [375]
+                Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Import-Package: org.eclipse.fx.ide.css.ui.extapi
+    -> Export-Package: org.eclipse.fx.ide.css.ui.extapi; bundle-symbolic-name="org.eclipse.fx.ide.css.ui"; bundle-version="3.3.0.201805280700"; version="0.0.0"; x-internal:="true"
+       org.eclipse.fx.ide.css.ui [385]
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+         Unresolved requirement: Import-Package: org.eclipse.fx.osgi.util
+           -> Export-Package: org.eclipse.fx.osgi.util; bundle-symbolic-name="org.eclipse.fx.osgi.util"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+              org.eclipse.fx.osgi.util [409]
+                Unresolved requirement: Import-Package: org.eclipse.fx.core.databinding; version="3.3.0"; resolution:="optional"
+                Unresolved requirement: Import-Package: org.eclipse.fx.core; version="3.3.0"
+                  -> Export-Package: org.eclipse.fx.core; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.ui.controls; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.ui.controls; bundle-version="3.3.0.201805280600"
+       org.eclipse.fx.ui.controls [411]
+         Unresolved requirement: Import-Package: org.eclipse.fx.core; version="3.3.0"
+           -> Export-Package: org.eclipse.fx.core; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.ide.css.cssext.ui 4 0 2020-03-28 22:11:30.297
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.ide.css.cssext.ui [382]
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.ide.css.cssext; visibility:="reexport"
+    -> Bundle-SymbolicName: org.eclipse.fx.ide.css.cssext; bundle-version="3.3.0.201805280700"; singleton:="true"
+       org.eclipse.fx.ide.css.cssext [380]
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+              org.eclipse.fx.core [375]
+                Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+  Unresolved requirement: Import-Package: org.eclipse.fx.osgi.util
+    -> Export-Package: org.eclipse.fx.osgi.util; bundle-symbolic-name="org.eclipse.fx.osgi.util"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+       org.eclipse.fx.osgi.util [409]
+         Unresolved requirement: Import-Package: org.eclipse.fx.core.databinding; version="3.3.0"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.eclipse.fx.core; version="3.3.0"
+           -> Export-Package: org.eclipse.fx.core; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.ide.css.ui 4 0 2020-03-28 22:11:30.301
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.ide.css.ui [385]
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+       org.eclipse.fx.core [375]
+         Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Import-Package: org.eclipse.fx.osgi.util
+    -> Export-Package: org.eclipse.fx.osgi.util; bundle-symbolic-name="org.eclipse.fx.osgi.util"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+       org.eclipse.fx.osgi.util [409]
+         Unresolved requirement: Import-Package: org.eclipse.fx.core.databinding; version="3.3.0"; resolution:="optional"
+         Unresolved requirement: Import-Package: org.eclipse.fx.core; version="3.3.0"
+           -> Export-Package: org.eclipse.fx.core; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.ide.jdt.core 4 0 2020-03-28 22:11:30.305
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.ide.jdt.core [392]
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+       org.eclipse.fx.core [375]
+         Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.osgi.util; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.osgi.util; bundle-version="3.3.0.201805280600"
+       org.eclipse.fx.osgi.util [409]
+         Unresolved requirement: Import-Package: org.eclipse.fx.core; version="3.3.0"
+           -> Export-Package: org.eclipse.fx.core; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.ide.jdt.ui 4 0 2020-03-28 22:11:30.308
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.ide.jdt.ui [393]
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+       org.eclipse.fx.core [375]
+         Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.ide.jdt.core; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.ide.jdt.core; bundle-version="3.3.0.201805280700"; singleton:="true"
+       org.eclipse.fx.ide.jdt.core [392]
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.osgi.util; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.osgi.util; bundle-version="3.3.0.201805280600"
+              org.eclipse.fx.osgi.util [409]
+                Unresolved requirement: Import-Package: org.eclipse.fx.core; version="3.3.0"
+                  -> Export-Package: org.eclipse.fx.core; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.ide.pde.core 4 0 2020-03-28 22:11:30.312
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.ide.pde.core [400]
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.ide.jdt.core; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.ide.jdt.core; bundle-version="3.3.0.201805280700"; singleton:="true"
+       org.eclipse.fx.ide.jdt.core [392]
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+              org.eclipse.fx.core [375]
+                Unresolved requirement: Import-Package: javax.xml.bind
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.osgi.util; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.osgi.util; bundle-version="3.3.0.201805280600"
+              org.eclipse.fx.osgi.util [409]
+                Unresolved requirement: Import-Package: org.eclipse.fx.core; version="3.3.0"
+                  -> Export-Package: org.eclipse.fx.core; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.ide.pde.ui 4 0 2020-03-28 22:11:30.317
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.ide.pde.ui [401]
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.ide.jdt.core; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.ide.jdt.core; bundle-version="3.3.0.201805280700"; singleton:="true"
+       org.eclipse.fx.ide.jdt.core [392]
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+              org.eclipse.fx.core [375]
+                Unresolved requirement: Import-Package: javax.xml.bind
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.osgi.util; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.osgi.util; bundle-version="3.3.0.201805280600"
+              org.eclipse.fx.osgi.util [409]
+                Unresolved requirement: Import-Package: org.eclipse.fx.core; version="3.3.0"
+                  -> Export-Package: org.eclipse.fx.core; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.ide.jdt.ui; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.ide.jdt.ui; bundle-version="3.3.0.201805280700"; singleton:="true"
+       org.eclipse.fx.ide.jdt.ui [393]
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.ide.jdt.core; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.ide.jdt.core; bundle-version="3.3.0.201805280700"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.ide.pde.ui.e4 4 0 2020-03-28 22:11:30.322
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.ide.pde.ui.e4 [402]
+  Unresolved requirement: Require-Bundle: org.eclipse.fx.ide.pde.ui; bundle-version="2.3.0"
+    -> Bundle-SymbolicName: org.eclipse.fx.ide.pde.ui; bundle-version="3.3.0.201805280700"; singleton:="true"
+       org.eclipse.fx.ide.pde.ui [401]
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.ide.jdt.core; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.ide.jdt.core; bundle-version="3.3.0.201805280700"; singleton:="true"
+              org.eclipse.fx.ide.jdt.core [392]
+                Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+                  -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+                     org.eclipse.fx.core [375]
+                       Unresolved requirement: Import-Package: javax.xml.bind
+                Unresolved requirement: Require-Bundle: org.eclipse.fx.osgi.util; bundle-version="2.3.0"
+                  -> Bundle-SymbolicName: org.eclipse.fx.osgi.util; bundle-version="3.3.0.201805280600"
+                     org.eclipse.fx.osgi.util [409]
+                       Unresolved requirement: Import-Package: org.eclipse.fx.core; version="3.3.0"
+                         -> Export-Package: org.eclipse.fx.core; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+         Unresolved requirement: Require-Bundle: org.eclipse.fx.ide.jdt.ui; bundle-version="2.3.0"
+           -> Bundle-SymbolicName: org.eclipse.fx.ide.jdt.ui; bundle-version="3.3.0.201805280700"; singleton:="true"
+              org.eclipse.fx.ide.jdt.ui [393]
+                Unresolved requirement: Require-Bundle: org.eclipse.fx.core; bundle-version="2.3.0"
+                  -> Bundle-SymbolicName: org.eclipse.fx.core; bundle-version="3.3.0.201805280600"
+                Unresolved requirement: Require-Bundle: org.eclipse.fx.ide.jdt.core; bundle-version="2.3.0"
+                  -> Bundle-SymbolicName: org.eclipse.fx.ide.jdt.core; bundle-version="3.3.0.201805280700"; singleton:="true"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.osgi.util 4 0 2020-03-28 22:11:30.336
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.osgi.util [409]
+  Unresolved requirement: Import-Package: org.eclipse.fx.core.databinding; version="3.3.0"; resolution:="optional"
+  Unresolved requirement: Import-Package: org.eclipse.fx.core; version="3.3.0"
+    -> Export-Package: org.eclipse.fx.core; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+       org.eclipse.fx.core [375]
+         Unresolved requirement: Import-Package: javax.xml.bind
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+
+!ENTRY org.eclipse.fx.ui.controls 4 0 2020-03-28 22:11:30.339
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.fx.ui.controls [411]
+  Unresolved requirement: Import-Package: org.eclipse.fx.core; version="3.3.0"
+    -> Export-Package: org.eclipse.fx.core; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+       org.eclipse.fx.core [375]
+         Unresolved requirement: Import-Package: javax.xml.bind
+  Unresolved requirement: Import-Package: org.eclipse.fx.core.array; version="3.3.0"
+    -> Export-Package: org.eclipse.fx.core.array; bundle-symbolic-name="org.eclipse.fx.core"; bundle-version="3.3.0.201805280600"; version="3.3.0"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:444)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1682)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1661)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1624)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1555)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
